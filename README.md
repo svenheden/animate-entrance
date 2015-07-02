@@ -1,4 +1,7 @@
 # animate-entrance
+
+[![NPM version][npm-image]][npm-url]
+
 > A jQuery plugin for animating the entrances of DOM elements as they appear in the viewport.
 
 
@@ -23,3 +26,6 @@ $('.selector').animateEntrance({
 ## License
 
 MIT © [Jonathan Persson](https://github.com/jonathanp)
+
+[npm-url]: https://npmjs.org/package/animate-entrance
+[npm-image]: https://badge.fury.io/js/animate-entrance.svg
