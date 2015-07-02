@@ -16,8 +16,8 @@ $.fn.animateEntrance = function(opts) {
         throttle: 100
     }, opts);
 
-    if (settings.threshold < 0.01 || settings.threshold > 1) {
-        throw new Error('The threshold needs to be a number between 0.01 and 1.');
+    if (settings.threshold < 0 || settings.threshold > 1) {
+        throw new Error('The threshold needs to be a number between 0 and 1.');
     }
 
     /**
