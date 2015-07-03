@@ -6,9 +6,9 @@ $.fn.animateEntrance = function(opts) {
 
     var $elements = this;
     var $window = $(window);
-    var eventNamespace;
     var settings;
-    var eventString;
+    var events;
+    var handler;
 
     settings = $.extend({
         /**
@@ -67,18 +67,13 @@ $.fn.animateEntrance = function(opts) {
         $elements = $elements.not($inView);
 
         if ($elements.length === 0) {
-            $window.off(eventNamespace);
+            $window.off(events, handler);
         }
     };
 
-    eventNamespace = '.' + $elements.selector.replace(/ /g, '');
-    eventString = [
-        'load' + eventNamespace,
-        'scroll' + eventNamespace,
-        'resize' + eventNamespace
-    ].join(' ');
-
-    $window.on(eventString, throttle(addClassesAndReduceElementSet, settings.throttle));
+    events = 'load scroll resize';
+    handler = throttle(addClassesAndReduceElementSet, settings.throttle);
+    $window.on(events, handler);
 
     return this;
 };
