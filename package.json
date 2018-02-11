@@ -1,6 +1,6 @@
 {
   "name": "animate-entrance",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A jQuery plugin for animating the entrances of DOM elements as they appear in the viewport.",
   "main": "index.js",
   "repository": {
