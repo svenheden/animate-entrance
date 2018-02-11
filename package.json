@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/jonathanp/animate-entrance",
   "dependencies": {
-    "jquery": "^1.11.3",
     "lodash.throttle": "^3.0.4"
+  },
+  "peerDependencies": {
+    "jquery": "*"
   }
 }
