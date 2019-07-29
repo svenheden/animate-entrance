@@ -37,7 +37,7 @@ Set `throttle` to a value greater than 0 to only call the class adding function 
 
 ## License
 
-MIT © [Jonathan Persson](https://github.com/jonathanp)
+MIT © [Jonathan Svenheden](https://github.com/svenheden)
 
 [npm-url]: https://npmjs.org/package/animate-entrance
 [npm-image]: https://badge.fury.io/js/animate-entrance.svg

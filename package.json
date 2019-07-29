@@ -1,22 +1,22 @@
 {
   "name": "animate-entrance",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A jQuery plugin for animating the entrances of DOM elements as they appear in the viewport.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jonathanp/animate-entrance.git"
+    "url": "https://github.com/svenheden/animate-entrance.git"
   },
   "keywords": [
     "jquery",
     "plugin"
   ],
-  "author": "Jonathan Persson <persson.jonathan@gmail.com>",
+  "author": "Jonathan Svenheden <jonathan@svenheden.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jonathanp/animate-entrance/issues"
+    "url": "https://github.com/svenheden/animate-entrance/issues"
   },
-  "homepage": "https://github.com/jonathanp/animate-entrance",
+  "homepage": "https://github.com/svenheden/animate-entrance",
   "dependencies": {
     "lodash.throttle": "^3.0.4"
   },
